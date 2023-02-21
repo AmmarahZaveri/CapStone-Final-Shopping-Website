@@ -31,27 +31,27 @@ export const slide = [
   export const category = [
     {
       id: 1,
-      title: "face & skin care",
+      title: "necklaces",
       cover: "../images/category/ca1.png",
     },
     {
       id: 2,
-      title: "baby care",
+      title: "rings",
       cover: "../images/category/ca2.png",
     },
     {
       id: 3,
-      title: "beauty care",
+      title: "bracelets",
       cover: "../images/category/ca3.png",
     },
     {
       id: 4,
-      title: "contraceptive",
+      title: "anklets",
       cover: "../images/category/ca4.png",
     },
     {
       id: 5,
-      title: "feminine hygiene",
+      title: "earrings",
       cover: "../images/category/ca5.png",
     },
     {
@@ -61,7 +61,7 @@ export const slide = [
     },
     {
       id: 7,
-      title: "health & wellness",
+      title: "headbands",
       cover: "../images/category/ca7.png",
     },
     {

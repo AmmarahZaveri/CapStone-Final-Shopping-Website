@@ -12,7 +12,7 @@ export const Regsiter = () => {
             <img src={back} alt='' />
             <div className='text'>
               <h3>Register</h3>
-              <h1>My ACcount</h1>
+              <h1>My Account</h1>
             </div>
           </div>
 

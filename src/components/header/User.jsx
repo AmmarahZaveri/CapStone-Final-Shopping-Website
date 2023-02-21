@@ -26,7 +26,7 @@ export const User = () => {
         {user ? (
           <>
             <button className='img' onClick={() => setProfileOpen(!profileOpen)}>
-              <img src='https://cdn-icons-png.flaticon.com/512/2202/2202112.png' alt='' />
+              <img src='../images/category/profile.png' alt='' />
             </button>
 
             {profileOpen && (
@@ -34,12 +34,12 @@ export const User = () => {
                 <div className='image'>
                   <Link to='/account'>
                     <div className='img'>
-                      <img src='https://cdn-icons-png.flaticon.com/512/2202/2202112.png' alt='' />
+                      <img src='../images/category/profile.png' alt='' />
                     </div>
                   </Link>
                   <div className='text'>
-                    <h4>Eden Smith</h4>
-                    <label htmlFor=''>Los Angeles,CA</label>
+                    <h4>Ammarah Zaveri</h4>
+                    <label htmlFor=''>Dallas, Texas</label>
                   </div>
                 </div>
                 <Link to='/login'>
@@ -52,14 +52,7 @@ export const User = () => {
                   <BsBagCheck className='icon' />
                   <h4>My Order</h4>
                 </button>
-                <button className='box'>
-                  <AiOutlineHeart className='icon' />
-                  <h4>Wishlist</h4>
-                </button>
-                <button className='box'>
-                  <GrHelp className='icon' />
-                  <h4>Help</h4>
-                </button>
+    
                 <button className='box' onClick={logoutHandler}>
                   <BiLogOut className='icon' />
                   <h4>Log Out</h4>

@@ -17,8 +17,8 @@ export const Login = () => {
           <div className='backImg'>
             <img src={back} alt='' />
             <div className='text'>
-              <h3>Login</h3>
-              <h1>My ACcount</h1>
+              <h2>Login</h2>
+              <h1>My Account</h1>
             </div>
           </div>
 

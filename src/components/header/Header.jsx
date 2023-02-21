@@ -1,5 +1,5 @@
 import React from "react"
-import Medicine from "../../assets/images/Medicine.png"
+import Medicine from "../../assets/images/Header.png"
 import "./header.css"
 import { AiOutlineSearch } from "react-icons/ai"
 import { Card } from "./Card"
